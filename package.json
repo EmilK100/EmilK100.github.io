@@ -1,0 +1,63 @@
+{
+  "homepage": "https://emilk100.github.io/",
+  "name": "teoria",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.1",
+    "bootstrap": "^4.6.0",
+    "carousel-testimonials": "^2.0.1",
+    "create-react-app": "^4.0.3",
+    "create-react-hook": "^3.1.0",
+    "emailjs-com": "^2.6.4",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.4",
+    "react-particles-js": "^3.4.1",
+    "react-responsive-carousel": "^3.2.14",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
+    "react-share": "^4.4.0",
+    "react-testimonial": "^1.0.0",
+    "react-typed": "^1.2.0",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
